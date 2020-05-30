@@ -8,6 +8,7 @@
 	"editor.insertSpaces": false,
 	"editor.lineNumbers": "off",
 	"modaledit.keybindings": {
+		"=": "editor.action.formatSelection",
 		"%": "editor.action.jumpToBracket",
 		":": {
 			"w": {
