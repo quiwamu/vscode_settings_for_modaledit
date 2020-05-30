@@ -246,7 +246,8 @@ handy. We use the `__line` parameter to get the line where the cursor is.
 			"z": {
 				"command": "revealLine",
 				"args": "{ lineNumber: __line, at: 'center' }"
-			}
+			},
+			"a": "editor.toggleFold"
 		},
 		/**
 Let's test some of the movement commands. We should be able to navigate now 
