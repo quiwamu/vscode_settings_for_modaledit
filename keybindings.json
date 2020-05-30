@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+j",
+        "command": "-editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "modaledit.enterNormal",
+        "when": "editorTextFocus && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-modaledit.enterNormal",
+        "when": "editorTextFocus && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "shift+cmd+]",
+		"command": "-workbench.action.nextEditor"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "shift+cmd+[",
+		"command": "-workbench.action.previousEditor"
+	}
+]
